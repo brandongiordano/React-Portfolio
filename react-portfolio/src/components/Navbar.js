@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>
-          <h1 className="">Test</h1>
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#003049] text-[#d62828]">
+          Navbar
         </div>
       );
 }
