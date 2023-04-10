@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import BG from '../assets/B.png'
-import { FiMenu } from "react-icons/fi"
+import BG from '../assets/B.png';
+import { FiMenu } from "react-icons/fi";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -12,11 +13,31 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="hidden md:flex">
-                    <li className='hover:text-[#d62828] duration-100'>Home</li>
-                    <li className='hover:text-[#d62828] duration-100'>About</li>
-                    <li className='hover:text-[#d62828] duration-100'>Skills</li>
-                    <li className='hover:text-[#d62828] duration-100'>Projects</li>
-                    <li className='hover:text-[#d62828] duration-100'>Contact</li>
+                    <li className='hover:text-[#d62828] duration-100'>
+                        <Link to='home' smooth={true} duration={400}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className='hover:text-[#d62828] duration-100'>
+                        <Link to='home' smooth={true} duration={400}>
+                            About
+                        </Link>
+                    </li>
+                    <li className='hover:text-[#d62828] duration-100'>
+                        <Link to='home' smooth={true} duration={400}>
+                            Skills
+                        </Link>
+                    </li>
+                    <li className='hover:text-[#d62828] duration-100'>
+                        <Link to='home' smooth={true} duration={400}>
+                            Projects
+                        </Link>
+                    </li>
+                    <li className='hover:text-[#d62828] duration-100'>
+                        <Link to='home' smooth={true} duration={400}>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
 
                 <div onClick={handleClick} className='md:hidden z-40'>
