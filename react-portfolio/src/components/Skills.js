@@ -14,7 +14,7 @@ const Skills = () => {
             <div>
                 <p className='text-5xl py-1 text-white font-bold inline border-b-4 border-[#d62828]'>My Skills</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-16'>
                 <div className='hover:scale-110 duration-500'>
                     <img src={HTML} className='w-20 mx-auto' alt="HTML Logo" />
                     <p className='text-white my-4'>HTML</p>
