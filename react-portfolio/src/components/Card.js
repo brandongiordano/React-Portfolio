@@ -1,5 +1,3 @@
-import React from 'react';
-import { data } from "../data/projects.js";
 import {
     Card,
     CardHeader,
@@ -7,21 +5,10 @@ import {
     Typography,
     Avatar,
   } from "@material-tailwind/react";
-
-const Projects = () => {
-
-    const projects = data;
-
+   
+  export default function Example() {
     return (
-        <div name="projects" className="bg-[#003049] flex flex-col items-center p-4 w-full md:h-screen">
-            <div className="mb-2 mt-12 text-center">
-               <h1 className='text-5xl py-1 text-white font-bold inline border-b-4 border-[#d62828]'>Projects</h1>
-               <p className='text-lg text-white'>
-                Take a look at my projects
-               </p>
-            </div>
-            <div className='flex flex-col gap-8 p-10 xl:flex-row'>
-            <Card
+      <Card
         shadow={false}
         className="relative grid h-[40rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
       >
@@ -53,9 +40,5 @@ const Projects = () => {
           />
         </CardBody>
       </Card>
-            </div>
-        </div>
-    )
-}
-
-export default Projects;
+    );
+  }
