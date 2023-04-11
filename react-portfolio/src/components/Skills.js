@@ -10,7 +10,7 @@ import NodeLogo from '../assets/NodeLogo.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className='bg-[#003049] mx-auto p-10 flex flex-col justify-center w-full h-full'>
+        <div name='skills' className='bg-[#003049] mx-auto p-10 flex flex-col justify-center w-full h-screen'>
             <div>
                 <p className='text-5xl py-1 text-white font-bold inline border-b-4 border-[#d62828]'>My Skills</p>
             </div>

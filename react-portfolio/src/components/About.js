@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import ME from "../assets/classPic.jpeg";
 
 const About = () => {
     return (
-        <div name="about" className="bg-[#003049] mx-auto p-4 flex px-10 flex-col justify-center w-full h-full">
+        <div name="about" className="bg-[#003049] mx-auto p-4 flex px-10 flex-col justify-center w-full h-screen">
             <div className="w-full md:w-1/2">
             <h1 className="text-5xl py-1 text-white font-bold inline border-b-4 border-[#d62828]" id="about-title">
               About Me
