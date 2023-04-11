@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = () => {
     return (
@@ -14,14 +14,16 @@ const Contact = () => {
                         className="p2 rounded-sm focus:outline-none my-2" 
                         name="name" 
                         placeholder='Enter your name'
+                        required
                         />
                         <input 
                         type="text" 
                         className="p2 rounded-sm focus:outline-none my-2" 
                         name="email" 
                         placeholder='Enter your email'
+                        required
                         />
-                        <textarea name="message" placeholder="Leave a message" className='p-2 rounded-sm focus:outline-none my-2' rows="10"/>
+                        <textarea name="message" placeholder="Leave a message" className='p-2 rounded-sm focus:outline-none my-2' rows="10" required/>
                         <button className="shadow-md shadow-black rounded-md text-white font-bold py-2 px-4 hover:scale-110 duration-100 mx-auto">Submit</button>
                     </form>
                 </div>
