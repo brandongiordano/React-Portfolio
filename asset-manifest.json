@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.da3e2956.css",
+    "main.js": "/React-Portfolio/static/js/main.4fdd3488.js",
+    "static/media/WMCpic.png": "/React-Portfolio/static/media/WMCpic.dfe9e7250fb9863c4df6.png",
+    "static/media/snapshot.jpeg": "/React-Portfolio/static/media/snapshot.1f842971535b2ab4a0ee.jpeg",
+    "static/media/classPic.jpeg": "/React-Portfolio/static/media/classPic.c070f22cae4ab317e39f.jpeg",
+    "static/media/css3-logo-crop.png": "/React-Portfolio/static/media/css3-logo-crop.325596999db110937708.png",
+    "static/media/mongoDBleaf.png": "/React-Portfolio/static/media/mongoDBleaf.c20e1bc7e958c8db307f.png",
+    "static/media/ReactLogo.png": "/React-Portfolio/static/media/ReactLogo.20adfb35ae6a6e5817bf.png",
+    "static/media/B.png": "/React-Portfolio/static/media/B.98dc044cb9af1513dac6.png",
+    "static/media/EXlogo.png": "/React-Portfolio/static/media/EXlogo.39a0f4c3d981885c64f8.png",
+    "static/media/NodeLogo.png": "/React-Portfolio/static/media/NodeLogo.478c590a266bed215577.png",
+    "static/media/mysql-logo.png": "/React-Portfolio/static/media/mysql-logo.4676ad983d6bd3e9fac9.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.da3e2956.css.map": "/React-Portfolio/static/css/main.da3e2956.css.map",
+    "main.4fdd3488.js.map": "/React-Portfolio/static/js/main.4fdd3488.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3e2956.css",
+    "static/js/main.4fdd3488.js"
+  ]
+}
