@@ -18,13 +18,19 @@ const Projects = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px0">
                 {projects.map((item, index) => (
                 <div className="shadow-md shadow-black rounded-lg">
-                    <img src={item.img} alt="My Projects" className="rounded-lg hover:scale-110 duration-500"/>
+                    <div class="group">
+                        <img src={item.img} alt="My Projects" className="rounded-lg hover:scale-110 duration-500"/>
+                        <div class='layer' className='text-white px-2'>
+                            <h3 className='py-2 font-semibold'>{item.name}</h3>
+                            <p>{item.description}</p>
+                        </div>
+                    </div>
                     <div className="flex items-center justify-center">
                         <a href={item.live}> 
                         <button className="w1/2 px-6 py-3 m-4 hover:scale-110 duration-500 text-white border-b-2 border-[#d62828]">Live</button>
                         </a>
                         <a href={item.github}>
-                        <button className="w1/2 px-6 py-3 m-4 hover:scale-110 duration-500 text-white border-b-2 border-[#d62828]">GitLink</button>
+                        <button className="w1/2 px-6 py-3 m-4 hover:scale-110 duration-500 text-white border-b-2 border-[#d62828]">GitHub</button>
                         </a>
                     </div>
                 </div>

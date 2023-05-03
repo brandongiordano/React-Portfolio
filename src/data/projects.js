@@ -8,7 +8,7 @@ export const data=[
         img:WMCpic,
         github:"https://github.com/brandongiordano/whos-my-congressman",
         live:"https://brandongiordano.github.io/whos-my-congressman/",
-        description:"A simple App utilizing the Google Civic API. Allows a user to type in their address and recieve their local Representative and Senators."
+        description:"A front-end Application utilizing the Google Civic API. Allows a user to type in their address and recieve their local Representative and Senators."
     },
     {
         id:2,
@@ -16,7 +16,7 @@ export const data=[
         img:FlickPic,
         github:"https://github.com/AveryNewhart/The-Flick-Tracker",
         live:"https://the-flick-tracker.herokuapp.com/",
-        description:"A social media platform that allows user to create watched and watchlists and follow other users to view theirs"
+        description:"A MERN stack social media platform that allows user to create watched and watchlists and follow other users to view theirs."
     },
     {
         id:3,
