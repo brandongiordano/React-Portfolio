@@ -10,7 +10,7 @@ const About = () => {
               </h1>
               <div className='w-full pt-10'>
                 <img src={ME} className='rounded-lg' alt="My Jiu Jitsu class" />
-                  <p className="mb-8 py-8 text-[white]" id="about-content">
+                  <p className="mb-8 py-8 text-[white] font-medium" id="about-content">
               I'm a Full Stack Web Developer based in Rockledge, Florida. I was originally born in Queens, NY but moved down to the sunshine state with my family in 2009. I have completed
               two college degrees such as an Associates in Arts as well as an
               Associates in Science from Eastern Florida State College. I have a
